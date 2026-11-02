@@ -17,6 +17,7 @@ I design, build and operate high-throughput, event-driven backend systems: Kafka
 
 ## Repositories
 
+- [`forno`](https://github.com/baka10/forno): an event-driven pizzeria operations backend (FastAPI, PostgreSQL, Redpanda, transactional outbox, SSE, Prometheus/Grafana SLOs with burn-rate alerts) plus a deterministic simulator that drives it through the public API and asserts system invariants in CI. A complete, runnable example of how I design, test and operate a production-shaped system — `make demo` runs a full dinner service in a minute.
 - [`dev-bootstrap`](https://github.com/baka10/dev-bootstrap): one-command Linux/macOS dev environment with Claude Code and Copilot hooks and skills.
 - Coming next: an eval harness for an LLM-backed FastAPI service (golden set, binary checks, LLM-as-judge, Langfuse tracing, CI) and a stateless MCP server with a CLI twin.
 
